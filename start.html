@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Vue.js</title>
+</head>
+<body>
+
+    <!--Div startando o Vue.js-->
+    <div id="start">
+
+        {{message}}
+    </div>
+
+        
+
+    <script src="vue.js"></script>
+
+    <!--Script do Vue-->
+    <script>
+
+        new Vue ({
+            el: '#start',
+            data: {
+
+                message: 'Olá Mundo'
+            }
+        })  
+    </script>
+</body>
+</html>
